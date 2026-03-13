@@ -10,7 +10,9 @@ android {
             minorApiLevel = 1
         }
     }
-
+    buildFeatures {
+        viewBinding = true
+    }
     defaultConfig {
         applicationId = "com.example.coroutinedemo"
         minSdk = 26
